@@ -11,7 +11,6 @@
     "run_settings": {
         "cypress_config_file": "./cypress.config.js",
         "project_name": "project-name",
-        "build_name": "build-name",
         "exclude": [],
         "parallels": "10",
         "npm_dependencies": {},

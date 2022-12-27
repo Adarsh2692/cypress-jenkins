@@ -18,11 +18,5 @@
         "package_config_options": {},
         "headless": true
     },
-    "connection_settings": {
-        "local": false,
-        "local_identifier": null,
-        "local_mode": null,
-        "local_config_file": null
-    },
     "disable_usage_reporting": false
 }

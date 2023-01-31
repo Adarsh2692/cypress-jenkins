@@ -21,4 +21,5 @@ jobs:
           username:  ${{ secrets.BROWSERSTACK_USERNAME }}
           access-key: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
       - run: npm i
+      - run: npm i browserstack-cypress-cli
       - run: browserstack-cypress run

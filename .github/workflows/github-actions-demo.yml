@@ -15,5 +15,4 @@ jobs:
           access-key: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
       - run: npm i
       - run: npm install -g browserstack-cypress-cli
-      - run: export BROWSERSTACK_LOCAL=true
-      - run: browserstack-cypress run
+      - run: BROWSERSTACK_LOCAL=true browserstack-cypress run
